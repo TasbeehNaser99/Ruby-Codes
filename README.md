@@ -36,8 +36,6 @@ Clone the repository:
 
 git clone https://github.com/TasbeehNaser99/Ruby-Code.git
 
-cd rubycode/csv_viewer
-
 Install the required gems: If you are using Bundler, run:
 
 bundle install
@@ -68,9 +66,11 @@ csv_viewer/
 Code Structure
 The program is divided into several classes, each with a specific responsibility:
 
-Fetcher: Responsible for fetching all CSV files from the specified directory.
+Fetcher: Responsible for fetching all CSV files from the specified directory. 
+
 Menu: Handles user interaction, allowing users to select the CSV file they want to view.
-Reader: Reads the selected CSV file and displays its content using the console_table gem.
+
+Reader: Reads the selected CSV file and displays its content using the terminal_table gem.
 
 https://github.com/user-attachments/assets/b544b96a-5183-439c-92f4-fdadc6248ba6
 
